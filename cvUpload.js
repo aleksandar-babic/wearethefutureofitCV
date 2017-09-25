@@ -90,8 +90,11 @@ function storeToken(token) {
   console.log(`Token stored to ${TOKEN_PATH}`);
 }
 
+/**
+ * Initialize http server, listen on port 8080.
+ *
+ */
 function init() {
-
   http.createServer((req, res) => {
     if (req.url == '/cvUpload' && req.method.toLowerCase() == 'post') {
       let form = new formidable.IncomingForm();
