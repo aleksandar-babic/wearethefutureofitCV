@@ -1,0 +1,17 @@
+{
+  "name": "cvupload",
+  "version": "1.0.0",
+  "description": "CV Upload backend for wearethefutureofit",
+  "main": "cvUpload.js",
+  "dependencies": {
+    "formidable": "^1.1.1",
+    "google-auth-library": "^0.11.0",
+    "googleapis": "^22.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node cvUpload.js"
+  },
+  "author": "Aleksandar Babic",
+  "license": "MIT"
+}
