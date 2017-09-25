@@ -17,7 +17,7 @@
     npm install
     npm start
 ```
-> You can change file destination path on line 98 in cvUpload.js
+> You can change file destination path on line 101 in cvUpload.js
 
 ### Optional
 > If you are using NGINX as web server for your app, you can make it to act as reverse proxy on specific url and forward it to this script 
