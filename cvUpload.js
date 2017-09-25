@@ -155,13 +155,11 @@ function handleUpload(req,res,form,filePath, callback) {
  * Upload local file to Google Drive.
  *
  * @param {google.auth.OAuth2} auth An authorized OAuth2 client.
- * @param {string} mime type of file to be uploaded.
- * @param {string} path where cv will be saved.
  */
 function uploadFileToGDrive(auth) {
   const drive = google.drive('v3');
   const fileMetadata = {
-  'name': 'CV/' + localFilePath.split('/')[localFilePath.split('/').length-1]
+  'name': localFilePath.split('/')[localFilePath.split('/').length-1]
   };
 
   const media = {
