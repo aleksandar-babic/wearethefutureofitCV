@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# client credentials for gcloud
+client_secret.json
